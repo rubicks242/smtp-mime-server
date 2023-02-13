@@ -196,7 +196,7 @@
                                 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                                     <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:16px;line-height:22px;text-align:left;color:#555;">
                                         Dear Sir/Ma'am!<br></br>
-                                        <b>${name}</b> with USN: <b>${usn} </b>  Has raised a SAP issue ticket, please click on the below link to view and resolve.
+                                        <b>${name}</b> with USN: <b>${usn} </b>  Has raised a SAP issue ticket.<br><b>Issue</b>: ${content}</br> please click on the below link to view and resolve.
                                     </div>
                                 </td>
                             </tr>
@@ -219,7 +219,7 @@
 
                                     <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:20px;text-align:left;color:#525252;">
                                         Note: This is a auto generated Email, Please do not reply<br><br>Student Assistance System<br>RV College of Engineering<br>
-                                        <a href=${url} style="color:#2F67F6">${url}</a>
+                                        <a href=${web_url} style="color:#2F67F6">${web_url}</a>
                                     </div>
 
                                 </td>

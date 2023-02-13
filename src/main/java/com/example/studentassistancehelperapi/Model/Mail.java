@@ -13,6 +13,8 @@ public class Mail {
     private String from;
     private String subject;
     private int type;
+    private String content;
+    private String web_url;
 }
 
 

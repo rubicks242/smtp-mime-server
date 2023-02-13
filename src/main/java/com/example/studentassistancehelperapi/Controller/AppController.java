@@ -24,6 +24,8 @@ public class AppController {
         model.put("usn", request.getUsn());
         model.put("url", request.getUrl());
         model.put("type",request.getType());
+        model.put("web_url",request.getWeb_url());
+        model.put("content",request.getContent());
         for(String to : request.getTo()){
            new Thread(new MailThread(mailService,request,model,to)).start();
         }
